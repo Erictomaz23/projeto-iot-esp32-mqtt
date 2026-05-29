@@ -59,6 +59,27 @@ O projeto foi desenvolvido utilizando o simulador Wokwi devido à indisponibilid
 
 ---
 
+## Funcionamento e reprodução do projeto
+
+O sistema funciona realizando a leitura da temperatura e da umidade do ambiente por meio do sensor DHT22 conectado ao ESP32.
+
+Os dados coletados são processados pelo microcontrolador e enviados utilizando o protocolo MQTT através de conexão Wi-Fi.
+
+Quando a temperatura ultrapassa 30°C, o sistema aciona automaticamente um LED como forma de alerta visual.
+
+Para reproduzir o projeto, é necessário:
+
+1. Acessar o simulador Wokwi;
+2. Criar um projeto utilizando ESP32;
+3. Adicionar os componentes DHT22 e LED;
+4. Inserir o código-fonte disponível neste repositório;
+5. Instalar as bibliotecas WiFi, PubSubClient e DHTesp;
+6. Iniciar a simulação no Wokwi.
+
+Após iniciar a simulação, o sistema começará automaticamente a monitorar as condições do ambiente simulado.
+
+---
+
 ## Autor
 
 Eric Tomaz dos Santos Silva
