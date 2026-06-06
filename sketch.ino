@@ -14,7 +14,7 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
 // Configurações do Broker MQTT (Usando o EMQX Público que roda liso no Wokwi)
-const char* mqtt_server = "broker.emqx.io";
+const char* mqtt_server = "broker.hivemq.com";
 const int mqtt_port = 1883;
 
 // Tópicos ÚNICOS para o seu projeto (mudei para incluir seu RA/Nome e evitar interferência)
